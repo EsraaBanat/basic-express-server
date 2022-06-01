@@ -7,7 +7,7 @@ describe('API Server', () => {
     test('Home Page Test', async () => {
         const response = await req.get('/');
         expect(response.status).toEqual(200);
-        expect(response.text).toEqual('Hello World');
+        expect(response.text).toEqual('Hello World from Ad_JS02 Class');
     });
 
     it('handle not found request', async () => {
