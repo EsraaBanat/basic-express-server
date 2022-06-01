@@ -29,7 +29,7 @@ function start(port) {
 }
 
 function handleHomePage(req, res) {
-    res.status(200).send('Hello World');
+    res.status(200).send('Hello World from Ad_JS02 Class');
 }
 
 function handleName(req, res) {
